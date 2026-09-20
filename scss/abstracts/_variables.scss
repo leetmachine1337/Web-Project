@@ -1,0 +1,23 @@
+// Кольори
+$color-primary: #2f6f4e;
+$color-secondary: #f0a202;
+$color-text: #1f2933;
+$color-muted: #6b7280;
+$color-bg: #ffffff;
+$color-border: #e5e7eb;
+
+// Типографіка
+$font-base: 'Inter', system-ui, sans-serif;
+$fs-base: 16px;
+$fs-lg: 1.25rem;
+$fs-xl: 1.75rem;
+
+// Розміри та ефекти
+$radius: 8px;
+$space: 8px;
+$shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+$transition: 0.2s ease;
+
+// Точки адаптивності
+$bp-tablet: 768px;
+$bp-desktop: 1200px;

@@ -1,0 +1,29 @@
+{
+  "name": "webproject-butkevych",
+  "version": "1.0.0",
+  "description": "Автор: Буткевич Гліб, група 5-ІПБ    \r Тема: онлайн-магазин техніки та гаджетів\r Опис: односторінковий динамічний вебдодаток-магазин техніки, гаджетів та аксесуарів.\r Стек: React + PHP + MySQL",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "sass scss/main.scss css/main.css --watch --style=expanded",
+    "build:css": "sass scss/main.scss css/main.css --style=compressed --no-source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leetmachine1337/Web-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/leetmachine1337/Web-Project/issues"
+  },
+  "homepage": "https://github.com/leetmachine1337/Web-Project#readme",
+  "devDependencies": {
+    "sass": "^1.104.1"
+  }
+}

@@ -1,0 +1,11 @@
+@mixin flex-center($direction: row) { }
+
+@mixin respond-to($breakpoint) {
+ @if $breakpoint == tablet {
+ @media (min-width: $bp-tablet) { @content; }
+ } @else if $breakpoint == desktop {
+ @media (min-width: $bp-desktop) { @content; }
+ }
+}
+
+@mixin text-truncate($lines: 1) { }
